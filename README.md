@@ -1,2 +1,1 @@
-# AMMAI
-paper review
+
