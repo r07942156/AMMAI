@@ -1,5 +1,7 @@
 ### Rethinking ImageNet Pre-training
 
+https://arxiv.org/pdf/1811.08883.pdf
+
 像VGG16這種淺層網路若參數初始化得當，就可以 be trained from scratch without activation normalization。
 
 ImageNet pre-training對於避免overfitting的功效不大，除非訓練的dataset很小(ex:百分之一的coco dataset)。
