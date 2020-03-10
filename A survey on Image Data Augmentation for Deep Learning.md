@@ -1,5 +1,6 @@
-###A survey on Image Data Augmentation for Deep Learning
-link: https://link.springer.com/content/pdf/10.1186/s40537-019-0197-0.pdf
+### A survey on Image Data Augmentation for Deep Learning
+
+https://link.springer.com/content/pdf/10.1186/s40537-019-0197-0.pdf
 
 
 Data augmentation的方法包含: Flipping, Color space transformations與Cropping, Rotation，透生成對抗樣本(ex:FGSM)也是一種augmentation的方法
