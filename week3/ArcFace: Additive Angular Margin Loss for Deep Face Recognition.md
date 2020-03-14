@@ -13,3 +13,8 @@ steps
 Sphereface [18] introduced the important idea
 of angular margin, their loss function required a series of approximations in order to be computed, which resulted in an
 unstable training of the network
+
+
+The proposed ArcFace has a constant linear angular margin
+throughout the whole interval. By contrast, SphereFace and
+CosFace only have a nonlinear angular margin.
