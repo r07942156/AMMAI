@@ -10,3 +10,5 @@ https://arxiv.org/pdf/1801.07698.pdf
 3. Sphereface introduced the important idea of angular margin, their loss function required a series of approximations in order to be computed, which resulted in an unstable training of the network. https://arxiv.org/pdf/1704.08063.pdf
 
 4. The proposed ArcFace has a constant linear angular margin throughout the whole interval. By contrast, SphereFace and CosFace only have a nonlinear angular margin.
+
+![image] https://github.com/r07942156/AMMAI/blob/master/week3/ArcFace:%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/f1.PNG
