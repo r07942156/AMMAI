@@ -11,4 +11,4 @@ https://arxiv.org/pdf/1801.07698.pdf
 
 4. The proposed ArcFace has a constant linear angular margin throughout the whole interval. By contrast, SphereFace and CosFace only have a nonlinear angular margin.
 
-![image]https://github.com/r07942156/AMMAI/blob/master/week3/ArcFace:%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/f1.PNG
+![image](https://github.com/r07942156/AMMAI/blob/master/week3/ArcFace:%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/f1.PNG)
