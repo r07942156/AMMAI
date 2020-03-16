@@ -11,4 +11,9 @@ https://arxiv.org/pdf/1801.07698.pdf
 
 4. The proposed ArcFace has a constant linear angular margin throughout the whole interval. By contrast, SphereFace and CosFace only have a nonlinear angular margin.
 
+
+對latent feature與最後一層FC layer的weight做normalization然後算cos距離，對此距離取arccos得到角度，將此角度加上一個additive angular margin(在實驗中此margin為0.5)，然後再scale回去算softmax loss。
 ![image](https://github.com/r07942156/AMMAI/blob/master/week3/ArcFace:%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/f1.PNG)
+
+這個margin可以增加inter-class的discrepancy與intra-class的comcpactness
+![image](https://github.com/r07942156/AMMAI/blob/master/week3/ArcFace:%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/f2.PNG)
